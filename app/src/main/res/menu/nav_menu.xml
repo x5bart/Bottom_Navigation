@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/oneFragment"
+        android:icon="@drawable/ic_one"
+        android:title="@string/one" />
+    <item
+        android:id="@+id/twoFragment"
+        android:icon="@drawable/ic_two"
+        android:title="@string/two" />
+    <item
+        android:id="@+id/threeFragment"
+        android:icon="@drawable/ic_three"
+        android:title="@string/three" />
+    <item
+        android:id="@+id/fourFragment"
+        android:icon="@drawable/ic_four"
+        android:title="@string/four" />
+    <item
+        android:id="@+id/fiveFragment"
+        android:icon="@drawable/ic_five"
+        android:title="@string/five" />
+
+</menu>

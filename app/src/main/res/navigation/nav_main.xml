@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/oneFragment">
+
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.x5bart_soft.bottomnavigation.OneFragment"
+        android:label="one"
+        tools:layout="@layout/fragment_one" />
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.x5bart_soft.bottomnavigation.TwoFragment"
+        android:label="two"
+        tools:layout="@layout/fragment_two" />
+    <fragment
+        android:id="@+id/threeFragment"
+        android:name="com.x5bart_soft.bottomnavigation.ThreeFragment"
+        android:label="three"
+        tools:layout="@layout/fragment_three" />
+    <fragment
+        android:id="@+id/fourFragment"
+        android:name="com.x5bart_soft.bottomnavigation.FourFragment"
+        android:label="four"
+        tools:layout="@layout/fragment_four" />
+    <fragment
+        android:id="@+id/fiveFragment"
+        android:name="com.x5bart_soft.bottomnavigation.FiveFragment"
+        android:label="five"
+        tools:layout="@layout/fragment_five" />
+</navigation>
